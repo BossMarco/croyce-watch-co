@@ -21,7 +21,7 @@ export default function Home() {
         <div className="hero-actions"><a className="button button-gold" href="https://www.instagram.com/c_royce_co" target="_blank" rel="noreferrer">Explore recent finds <ArrowIcon /></a><a className="text-link" href="#visit">Visit the shop</a></div>
         <div className="trust-line"><span>BUY</span><i/><span>SELL</span><i/><span>TRADE</span><i/><span>CONSIGN</span><i/><span>SOURCE</span></div>
       </div>
-      <div className="hero-visual" aria-label="Vintage mechanical wristwatch"><Image src="/croyce-watch-hero.png" alt="Vintage mechanical wristwatch on walnut and leather" fill priority sizes="(max-width: 900px) 100vw, 52vw"/><WatchAtmosphere/><div className="floating-note"><small>Specialists in</small><strong>Vintage</strong></div></div>
+      <div className="hero-visual" aria-label="Vintage mechanical wristwatch"><Image src="/croyce-watch-hero.webp" alt="Vintage mechanical wristwatch on walnut and leather" fill priority sizes="(max-width: 900px) 100vw, 52vw"/><WatchAtmosphere/><div className="floating-note"><small>Specialists in</small><strong>Vintage</strong></div></div>
     </section>
 
     <section className="story" id="story">

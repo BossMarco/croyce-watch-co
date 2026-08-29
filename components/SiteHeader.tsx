@@ -1,5 +1,6 @@
 "use client";
 
+import Image from "next/image";
 import { useEffect, useState } from "react";
 
 const ArrowIcon = () => <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M5 12h14M13 6l6 6-6 6" /></svg>;
@@ -15,7 +16,7 @@ export function SiteHeader() {
   const close = () => setOpen(false);
 
   return <header className="nav-shell">
-    <a className="wordmark" href="/" aria-label="C. Royce Watch Co. home" onClick={close}><span className="monogram">CR</span><span>C. ROYCE <em>WATCH CO.</em></span></a>
+    <a className="wordmark" href="/" aria-label="C. Royce Watch Co. home" onClick={close}><Image className="brand-mark" src="/croyce-logo-mark.webp" width={54} height={54} alt="" priority/><span>C. ROYCE <em>WATCH CO.</em></span></a>
     <nav className="desktop-nav" aria-label="Main navigation"><a href="/#story">Our Story</a><a href="/services">Services</a><a href="/areas-served">RGV Areas</a><a href="/#visit">Visit</a></nav>
     <a className="nav-cta" href="https://www.instagram.com/c_royce_co" target="_blank" rel="noreferrer">View the collection <ArrowIcon /></a>
     <button className="menu-toggle" type="button" aria-expanded={open} aria-controls="mobile-menu" aria-label={open ? "Close menu" : "Open menu"} onClick={() => setOpen(value => !value)}><span /><span /></button>

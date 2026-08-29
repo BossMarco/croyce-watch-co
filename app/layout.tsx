@@ -12,7 +12,7 @@ export const metadata: Metadata = {
   robots: { index: true, follow: true, googleBot: { index: true, follow: true, "max-image-preview": "large", "max-snippet": -1, "max-video-preview": -1 } },
   openGraph: { type: "website", locale: "en_US", url: "/", siteName: "C. Royce Watch Co.", title: "C. Royce Watch Co. | Vintage Watches in McAllen, TX", description: "Collector-focused vintage watches in McAllen: buy, sell, trade, consign, and source across the Rio Grande Valley.", images: [{ url: "/croyce-watch-hero.webp", width: 1400, height: 875, alt: "Vintage mechanical wristwatch" }] },
   twitter: { card: "summary_large_image", title: "C. Royce Watch Co.", description: "Vintage watches and collector-focused guidance in McAllen, Texas.", images: ["/croyce-watch-hero.webp"] },
-  icons: { icon: "/favicon.svg", shortcut: "/favicon.svg" },
+  icons: { icon: "/favicon.png", shortcut: "/favicon.png" },
 };
 
 export default function RootLayout({ children }: Readonly<{ children: React.ReactNode }>) {

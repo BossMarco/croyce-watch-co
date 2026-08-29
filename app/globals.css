@@ -19,3 +19,7 @@
 @media(max-width:560px){.social-strip>span{width:100%}.trust-line{margin-top:32px}.watch-atmosphere{opacity:.62}.mobile-socials{align-items:flex-start;flex-wrap:wrap}.mobile-socials p{width:100%;margin-bottom:0}}
 
 @media(prefers-reduced-motion:reduce){*,*:before,*:after{animation-duration:.01ms!important;animation-iteration-count:1!important;transition-duration:.01ms!important}.reveal,.hero-enter{opacity:1;transform:none}.orbit-ring{display:none}}
+
+/* Lead with the animated timepiece on tablets and phones. */
+@media(max-width:900px){.hero-visual{order:-1;min-height:64svh}.hero-copy{order:1}.floating-note{padding:20px 30px}.floating-note strong{font-size:27px}}
+@media(max-width:560px){.hero-visual{min-height:58svh}}

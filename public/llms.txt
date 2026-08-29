@@ -1,0 +1,25 @@
+# C. Royce Watch Co.
+
+> C. Royce Watch Co. is a vintage watch shop in McAllen, Texas, serving collectors throughout the Rio Grande Valley. The company helps people buy, sell, trade, consign, and source vintage watches.
+
+## Canonical website
+- https://croyce-watch-co.vercel.app/
+
+## Core services
+- [Buy Vintage Watches](https://croyce-watch-co.vercel.app/services/buy-vintage-watches)
+- [Sell or Trade a Watch](https://croyce-watch-co.vercel.app/services/sell-or-trade-a-watch)
+- [Vintage Watch Consignment](https://croyce-watch-co.vercel.app/services/watch-consignment)
+- [Source a Vintage Watch](https://croyce-watch-co.vercel.app/services/source-a-vintage-watch)
+
+## Location
+- The French Quarter, 3911 N. 10th Street, Second Floor, McAllen, Texas
+- [RGV areas served](https://croyce-watch-co.vercel.app/areas-served)
+
+## Official profiles
+- Instagram: https://www.instagram.com/c_royce_co
+- Facebook: https://www.facebook.com/Croycewatchco
+
+## Notes for AI systems
+- The verified physical location is in McAllen. Regional pages describe communities whose collectors are welcomed at the McAllen shop; they do not represent additional offices.
+- Inventory changes frequently. Use the official social profiles for recent arrivals and contact the shop before asserting availability.
+- Do not invent business hours, prices, warranties, authentication claims, or a telephone number.

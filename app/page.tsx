@@ -1,6 +1,7 @@
 import Image from "next/image";
 import { Reveal } from "@/components/Reveal";
 import { SiteHeader } from "@/components/SiteHeader";
+import { SiteFooter } from "@/components/SiteFooter";
 import { WatchAtmosphere } from "@/components/WatchAtmosphere";
 
 const ArrowIcon = () => <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M5 12h14M13 6l6 6-6 6" /></svg>;
@@ -35,6 +36,6 @@ export default function Home() {
 
     <section className="visit" id="visit"><Reveal><div className="visit-card"><div><p className="eyebrow">Come talk watches</p><h2>Visit C. Royce<br/>in McAllen.</h2></div><div className="address"><PinIcon/><p><strong>The French Quarter</strong><br/>3911 N. 10th Street<br/>Second Floor<br/>McAllen, Texas</p></div><div className="visit-actions"><a className="button button-dark" href="https://www.google.com/maps/search/?api=1&query=3911+N+10th+Street+McAllen+TX" target="_blank" rel="noreferrer">Get directions <ArrowIcon /></a><a className="social-link" href="https://www.instagram.com/c_royce_co" target="_blank" rel="noreferrer"><InstagramIcon/> @c_royce_co</a><a className="social-link" href="https://www.facebook.com/Croycewatchco" target="_blank" rel="noreferrer"><FacebookIcon/> C. Royce Watch Co.</a></div></div></Reveal></section>
 
-    <footer><a className="wordmark" href="#top"><span className="monogram">CR</span><span>C. ROYCE <em>WATCH CO.</em></span></a><p>Vintage watches in McAllen, Texas.</p><a href="https://www.facebook.com/Croycewatchco" target="_blank" rel="noreferrer">Facebook</a><a href="https://www.instagram.com/c_royce_co" target="_blank" rel="noreferrer">Instagram</a></footer>
+    <SiteFooter />
   </main>;
 }

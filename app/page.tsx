@@ -15,7 +15,7 @@ export default function Home() {
   return <main>
     <SiteHeader />
     <section className="hero video-hero" id="top">
-      <video className="hero-video" autoPlay muted loop playsInline preload="metadata" poster="/croyce-watch-hero.webp" aria-hidden="true"><source src="https://videos.pexels.com/video-files/11965361/11965361-hd_1920_1080_24fps.mp4" type="video/mp4" /></video>
+      <video className="hero-video" autoPlay muted loop playsInline preload="auto" aria-hidden="true"><source src="https://videos.pexels.com/video-files/11965361/11965361-hd_1920_1080_24fps.mp4" type="video/mp4" /></video>
       <div className="video-shade" aria-hidden="true" />
       <div className="hero-copy video-hero-copy">
         <p className="eyebrow hero-enter delay-1">Vintage watches · McAllen, Texas</p>
